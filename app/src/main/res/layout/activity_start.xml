@@ -16,11 +16,27 @@
     <!--android:text="Hello World!" />-->
 
     <Button
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/LoginBtn"
+        android:layout_alignParentBottom="true" />
+
+    <Button
         android:text="JOIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:id="@+id/JoinBtn"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        android:id="@+id/IDEditText"
+        android:singleLine="true"
         android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
